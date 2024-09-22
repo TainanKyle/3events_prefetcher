@@ -1,4 +1,4 @@
-# Enhancing Bingo Prefetcher Performance
+# Enhancing Bingo Prefetcher Performance - Three Events
 
 ### Introduction
 This project focuses on enhancing the performance of the Bingo Prefetcher, which aims to improve cache memory
@@ -29,4 +29,20 @@ comparison requires more time, potentially increasing latency. However, if this 
 probability and reduces cache misses, the overall performance improvement can outweigh these costs.
 ![image](https://github.com/user-attachments/assets/438342f7-d804-4c90-8535-84c133c5b38e)
 
+### Result
+For our model, 'Three Events', we observed improvements compared to Bingo. In both tracers, the Three Events
+model achieved a higher IPC, indicating an overall improvement in processor performance. This enhancement is attributed to
+an increased number of prefetch accesses and hits, which means that the prefetcher is effectively bringing more useful data
+into the cache before it is needed. By prefetching more data that is actually used by the processor, the model reduces cache
+misses, thus enhancing overall system performance.
+
+Furthermore, despite the increased number of prefetch accesses, the Three Events model maintained a higher hit rate,
+demonstrating the superior quality of its prefetching decisions. This indicates that the additional PC event in the Three Events
+model effectively enhances the match probability and overall prefetching accuracy, leading to improved processor
+performance and reduced cache misses.
+
+The detailed results of these observations are presented in Table IV and Table V, which compare the IPC, prefetch
+accesses, prefetch hits, and hit rates of the Three Events model against the original Bingo model. The tables illustrate the
+performance gains achieved by implementing the Three Events model.
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/f9cdf6b3-4b46-440a-9583-09d133ecb559">
 
