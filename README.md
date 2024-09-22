@@ -3,9 +3,7 @@
 ### Introduction
 This project focuses on enhancing the performance of the Bingo Prefetcher, which aims to improve cache memory
 efficiency. We identified two key issues in Bingo for improvement: multiple matches in short event lookups and limited match
-probability due to reliance on only two events. To address these issues, we proposed two design improvements: Global Match
-and Three Events. The Global Match model adjusts the prefetch decision threshold to a global percentage across the entire
-history table rather than a local percentage within a matching set. The Three Events model introduces an additional event,
+probability due to reliance on only two events. To address these issues, we proposed a design improvement: Three Events. The Three Events model introduces an additional event,
 ‘PC’, to enhance match probability.
 
 Our evaluations demonstrate that while the Global Match approach did not yield performance improvements, our Three
