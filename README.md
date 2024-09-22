@@ -44,5 +44,6 @@ performance and reduced cache misses.
 The detailed results of these observations are presented in Table IV and Table V, which compare the IPC, prefetch
 accesses, prefetch hits, and hit rates of the Three Events model against the original Bingo model. The tables illustrate the
 performance gains achieved by implementing the Three Events model.
+
 <img width="491" alt="image" src="https://github.com/user-attachments/assets/f9cdf6b3-4b46-440a-9583-09d133ecb559">
 
