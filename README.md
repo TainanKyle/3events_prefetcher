@@ -13,7 +13,7 @@ Events model enhanced the Instruction Per Cycle (IPC) and hit rates in several t
 incorporating an additional event can substantially improve the efficiency and effectiveness of prefetching strategies in cache
 memory systems.
 
-### Proposal
+### Method
 To address the second problem of enhancing match probability for prefetching, we propose the Three Events model. This
 design introduces an additional event, the program counter (PC), thereby expanding the number of events from two to three.
 When no match is found using the original two events (PC+Address and PC+Offset), the model tests the same set again to find
