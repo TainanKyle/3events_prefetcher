@@ -46,3 +46,7 @@ performance gains achieved by implementing the Three Events model.
 
 ### Architecture
 The 3rd Data Prefetching Championship (DPC3)
+
+### Reference
+Bakhshalipour, Mohammad, et al. "Bingo spatial data prefetcher." 2019 IEEE International Symposium on High
+Performance Computer Architecture (HPCA). IEEE, 2019.
