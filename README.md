@@ -44,3 +44,5 @@ performance gains achieved by implementing the Three Events model.
 
 <img width="491" alt="image" src="https://github.com/user-attachments/assets/f9cdf6b3-4b46-440a-9583-09d133ecb559">
 
+### Architecture
+The 3rd Data Prefetching Championship (DPC3)
