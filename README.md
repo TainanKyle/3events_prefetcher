@@ -27,6 +27,7 @@ process are coherent.
 It is important to note that this model might incur additional costs. In cases of a match failure, the additional event
 comparison requires more time, potentially increasing latency. However, if this model effectively increases the match
 probability and reduces cache misses, the overall performance improvement can outweigh these costs.
+
 ![image](https://github.com/user-attachments/assets/438342f7-d804-4c90-8535-84c133c5b38e)
 
 ### Result
